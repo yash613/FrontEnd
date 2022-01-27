@@ -1,0 +1,9 @@
+document.querySelector('.c1').addEventListener('click',function(){
+    alert('c1');
+      });
+document.querySelector('.c2').addEventListener('click',function(){
+        alert('c2');
+          });
+document.querySelector('.c3').addEventListener('click',function(){
+            alert('c3');
+              });
