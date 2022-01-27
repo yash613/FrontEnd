@@ -1,0 +1,16 @@
+
+<a routerLink="">Go back to parent</a>
+
+<table style="padding: 10px;" >
+    <th>User Id</th> <th>Post Id</th><th>title </th><th>body</th>
+ 
+<tr *ngFor="let data of postData">
+    
+    <td style="padding: 10px;">{{data.userId}}</td>
+    <td style="padding: 10px;">{{data.id}}</td>
+    <td style="padding: 10px;">{{data.title}}</td>
+    <td style="padding: 10px;">{{data.body}}</td>
+</tr>
+</table>
+
+
